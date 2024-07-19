@@ -1,0 +1,6 @@
+@ConsuleWithNetCore_HostAddress = http://localhost:5254
+
+GET {{ConsuleWithNetCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
